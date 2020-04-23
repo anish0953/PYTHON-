@@ -1,0 +1,11 @@
+Radius = float(input(print('ENTER THE REQUIRED RADIUS:')))
+
+print('Radius is :',Radius)
+
+r=Radius
+
+from math import pi 
+
+area = pi*r*r
+
+print('Area of circle is:', area)
